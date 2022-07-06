@@ -4,4 +4,10 @@ class ParamsController < ApplicationController
     message = params[:input]
     render json: (message.upcase).as_json
   end 
+
+  def url_segment_method
+    message = params[:input]
+    render json: (message.upcase).as_json
+  end 
+
 end

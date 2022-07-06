@@ -6,4 +6,7 @@ Rails.application.routes.draw do
 
 
   get "/search" => "params#query_method"
+
+
+  get "/search/:input" => "params#url_segment_method"
 end

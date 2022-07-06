@@ -10,4 +10,10 @@ class ParamsController < ApplicationController
     render json: (message.upcase).as_json
   end 
 
+
+  def body_parameters_method
+    message = request.POST[:input]
+    render json: (message.upcase).as_json
+  end 
+
 end

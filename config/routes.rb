@@ -9,4 +9,11 @@ Rails.application.routes.draw do
 
 
   get "/search/:input" => "params#url_segment_method"
+
+
+  post "/search" => "params#body_parameters_method"
+
+
+
+
 end

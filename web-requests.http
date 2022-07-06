@@ -1,0 +1,14 @@
+require 'http'
+
+###
+
+POST http://localhost:3000/search.json
+Content-Type: application/json
+
+{
+  "input": "hello there!"
+}
+
+
+
+
